@@ -1,4 +1,5 @@
 
+
 # Introduction
 `This project is a React JS` application that allows users to track the current price of cryptocurrencies and their price change in 24 hours. The application uses the coingecko API to get real-time cryptocurrency prices. The application is designed to be simple and easy to use and responsive. Users can quickly and easily find the coin by quick search. 
 
@@ -32,6 +33,8 @@ Also implementated autofetch code which fetch data after some interval, due to c
     };
 
 ## Demo
+https://github.com/ajay-nishad25/React-Crypto-Watcher/assets/92628257/e238b413-3fa4-4e3d-a225-ecf6954ac34b
+
 
 
 
