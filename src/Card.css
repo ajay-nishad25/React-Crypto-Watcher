@@ -1,0 +1,107 @@
+
+.card{
+    height: auto;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-holder{
+    width: 80vh;
+    height: 30px;
+    /* margin-top: 1px; */
+    background-color: #ccecec74;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.image-div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    margin-top: 2%;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.details-div{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 18vh;
+}
+
+ul li{
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+/* small devices such as smartphone */
+@media (min-width: 350px) and (max-width: 1000px) {
+
+    .card{
+        height: auto;
+        margin-top: 4px;
+        margin-bottom: 6px;
+        margin-left: 2px;
+        margin-right: 2px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .card-holder{
+        width: 80vh;
+        height: 30px;
+        background-color: #ccecec74;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        padding: 1%;
+    }
+    
+    .image-div{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    img{
+        margin-top: 8%;
+        max-width: 40px;
+        max-height: 40px;
+    }
+    
+    .details-div{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    ul{
+        list-style-type: none;
+        display: flex;
+        gap: 7vh;
+    }
+    
+    ul li{
+        color: black;
+        display: flex;
+        align-items: center;
+        font-size: 0.92rem;
+    }
+    
+}

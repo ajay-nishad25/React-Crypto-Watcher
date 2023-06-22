@@ -1,0 +1,87 @@
+table {
+  table-layout: fixed;
+  height: auto;
+  width: 100%;
+}
+
+th:nth-child(1){
+  width: 8%;
+}
+th:nth-child(2) {
+  width: 24%;
+}
+
+th:nth-child(3),
+th:nth-child(4) {
+  width: 30.67%;
+}
+
+.card{
+  height: auto;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-holder{
+  width: 78vh;
+  height: 30px;
+  border-bottom: 1px solid black;
+  /* background-color: #ccecec74; */
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+img{
+  margin-top: 2%;
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.details-div{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+/* small devices such as smartphone */
+@media (min-width: 350px) and (max-width: 1000px) {
+
+  .card{
+      height: auto;
+      margin-top: 4px;
+      margin-bottom: 6px;
+      margin-left: 2px;
+      margin-right: 2px;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .card-holder{
+    width: 80vh;
+    height: 50px;
+    border-bottom: 1px solid black;
+    /* background-color: #ccecec74; */
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+  }
+  
+  
+  img{
+      margin-top: 8%;
+      max-width: 40px;
+      max-height: 40px;
+  }
+  
+  .details-div{
+      width: 90%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-start;
+  }
+  
+}

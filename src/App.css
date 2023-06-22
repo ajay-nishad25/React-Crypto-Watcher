@@ -1,0 +1,48 @@
+.App {
+  height: 0vh;
+}
+
+.navigation-bar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* navigation bar code */
+.nav-container {
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  background-color: #C4DFDF;
+  padding: 10px;
+}
+
+.nav-holder {
+  /* width: 1110px; */
+  width: 100vh;
+  height: 45px;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+input{
+  height: 2rem;
+  width: 250px;
+  border-radius: 20px;
+  outline: none;
+  padding-inline-start: 10px;
+  border-style: none  ;
+}
+
+
+.content-container{
+  padding-top: 70px;
+}
